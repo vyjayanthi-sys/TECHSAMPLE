@@ -4,7 +4,7 @@ Core Technologies: Microsoft Power Apps, Power Automate, Power BI, SharePoint On
 Target Audience: Internal Compliance Officers, Department Managers, and Platform Administrators
 Documentation Standard: Editable electronic delivery format optimized for independent deployment
 1. Logical Architecture Schematic
-   The following structural overview details the multi-tier application architecture developed for our previous enterprise implementation, designed specifically for environment portability, strict access control, and low-code scalability:
+   The following structural overview details the multi-tier application architecture developed for our previous enterprise implementation, designed specifically for environment portability, strict access control, and low-code scalability
    [ USER INTERACTION LAYER ]
        │
        ▼ (Role-Based Access Control)
