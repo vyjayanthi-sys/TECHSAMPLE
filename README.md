@@ -5,7 +5,7 @@ Target Audience: Internal Compliance Officers, Department Managers, and Platform
 Documentation Standard: Editable electronic delivery format optimized for independent deployment
 1. Logical Architecture Schematic
    The following structural overview details the multi-tier application architecture developed for our previous enterprise implementation, designed specifically for environment portability, strict access control, and low-code scalability:
- '''TEXT   [ USER INTERACTION LAYER ]
+   [ USER INTERACTION LAYER ]
        │
        ▼ (Role-Based Access Control)
  ┌────────────────────────────────────────────────────────┐
@@ -40,7 +40,7 @@ Documentation Standard: Editable electronic delivery format optimized for indepe
  │  - Operational Dashboards Embedded via Power Apps UI   │
  │  - Submission Volume, Cycle Times, & Backlog Tracking  │
  │  - Administrative Maintenance & Audit Trail Logging   │
- └────────────────────────────────────────────────────────┘'''
+ └────────────────────────────────────────────────────────┘
 Infrastructure & Pipeline Portability Design
 To maximize ease of deployment and ensure the application remains highly portable, all source files, data structural templates, and workflow definitions are consolidated into a centralized deployment package. The package components include:
 SharePoint Deployment Assets:           Formatted XML site scripts and list provisioning templates that allow external entities to instantly build identical data structures.
