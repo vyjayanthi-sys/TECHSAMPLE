@@ -7,43 +7,43 @@ Documentation Standard: Editable electronic delivery format optimized for indepe
    The following structural overview details the multi-tier application architecture developed for our previous enterprise implementation, designed specifically for environment portability, strict access control, and low-code scalability
 
 
-
-   [ USER INTERACTION LAYER ]
-       │
-       ▼ (Role-Based Access Control)
- ┌────────────────────────────────────────────────────────┐
- │ Microsoft Power Apps Canvas Interface                  │
- │  - End-User Guided Data Entry & Validation Controls    │
- │  - Application Administrator Setup & Metadata Override │
- │  - System Administrator Environmental Checklist Panel  │
- └─────────────────────────┬──────────────────────────────┘
-                           │
-                           ▼ (Secure Automated Workflows)
-[ BUSINESS LOGIC LAYER ]
- ┌────────────────────────────────────────────────────────┐
- │ Microsoft Power Automate Cloud Flows                   │
- │  - Real-Time Submission Processing & Status Changes    │
- │  - Multi-Stage Management Approval Routing             │
- │  - Centralized Error-Handling & Try-Catch Notification │
- └─────────────────────────┬──────────────────────────────┘
-                           │
-                           ▼ (Relational Database Design)
-[ DATA MANAGEMENT LAYER ]
- ┌────────────────────────────────────────────────────────┐
- │ Microsoft SharePoint Online Relational Schema          │
- │  - Request Master Tracking Ledger (Indexed Columns)    │
- │  - Document & Attachment Security Repositories         │
- │  - System Configuration Variables & Parameter Cache    │
- └─────────────────────────┬──────────────────────────────┘
-                           │
-                           ▼ (Analytics & Auditing)
-[ REPORTING & METRICS LAYER ]
- ┌────────────────────────────────────────────────────────┐
- │ Microsoft Power BI Reporting Engine                    │
- │  - Operational Dashboards Embedded via Power Apps UI   │
- │  - Submission Volume, Cycle Times, & Backlog Tracking  │
- │  - Administrative Maintenance & Audit Trail Logging    │
- └────────────────────────────────────────────────────────┘
+| [ USER INTERACTION LAYER ]                                       |
+|------------------------------------------------------------------|
+|        │                                                         |
+|        ▼ (Role-Based Access Control)                             |
+|  ┌────────────────────────────────────────────────────────┐      |
+|  │ Microsoft Power Apps Canvas Interface                  │      |
+|  │  - End-User Guided Data Entry &amp; Validation Controls    │  |
+|  │  - Application Administrator Setup &amp; Metadata Override  │ |
+|  │  - System Administrator Environmental Checklist Panel   │     |
+|  └─────────────────────────┬──────────────────────────────┘      |
+|                            │                                     |
+|                            ▼ (Secure Automated Workflows)        |
+| [ BUSINESS LOGIC LAYER ]                                         |
+|  ┌────────────────────────────────────────────────────────┐      |
+|  │ Microsoft Power Automate Cloud Flows                   │      |
+|  │  - Real-Time Submission Processing &amp; Status Changes    │  |
+|  │  - Multi-Stage Management Approval Routing             │      |
+|  │  - Centralized Error-Handling &amp; Try-Catch Notification │  |
+|  └─────────────────────────┬──────────────────────────────┘      |
+|                            │                                     |
+|                            ▼ (Relational Database Design)        |
+| [ DATA MANAGEMENT LAYER ]                                        |
+|  ┌────────────────────────────────────────────────────────┐      |
+|  │ Microsoft SharePoint Online Relational Schema          │      |
+|  │  - Request Master Tracking Ledger (Indexed Columns)    │      |
+|  │  - Document &amp; Attachment Security Repositories         │  |
+|  │  - System Configuration Variables &amp; Parameter Cache    │  |
+|  └─────────────────────────┬──────────────────────────────┘      |
+|                            │                                     |
+|                            ▼ (Analytics &amp; Auditing)          |
+| [ REPORTING &amp; METRICS LAYER ]                                |
+|  ┌────────────────────────────────────────────────────────┐      |
+|  │ Microsoft Power BI Reporting Engine                    │      |
+|  │  - Operational Dashboards Embedded via Power Apps UI   │      |
+|  │  - Submission Volume, Cycle Times, &amp; Backlog Tracking  │  |
+|  │  - Administrative Maintenance &amp; Audit Trail Logging   │   |
+|  └────────────────────────────────────────────────────────┘      |
 Infrastructure & Pipeline Portability Design
 To maximize ease of deployment and ensure the application remains highly portable, all source files, data structural templates, and workflow definitions are consolidated into a centralized deployment package. The package components include:
 SharePoint Deployment Assets:           Formatted XML site scripts and list provisioning templates that allow external entities to instantly build identical data structures.
