@@ -3,7 +3,9 @@ Project Name: Horizon Document Tracking & Compliance Engine
 Core Technologies: Microsoft Power Apps, Power Automate, Power BI, SharePoint Online, and GitHub
 Target Audience: Internal Compliance Officers, Department Managers, and Platform Administrators
 Documentation Standard: Editable electronic delivery format optimized for independent deployment
-1. Logical Architecture SchematicThe following structural overview details the multi-tier application architecture developed for our previous enterprise implementation, designed specifically for environment portability, strict access control, and low-code scalability:[ USER INTERACTION LAYER ]
+1. Logical Architecture Schematic
+   The following structural overview details the multi-tier application architecture developed for our previous enterprise implementation, designed specifically for environment portability, strict access control, and low-code scalability:
+   [ USER INTERACTION LAYER ]
        │
        ▼ (Role-Based Access Control)
  ┌────────────────────────────────────────────────────────┐
@@ -45,7 +47,7 @@ SharePoint Deployment Assets:           Formatted XML site scripts and list prov
 Power Platform Solution Packages:       Compressed export packages containing the complete canvas application interface, environment variable references, and automated cloud flows.
 Version Control & Repository Pipelines: Managed using continuous integration workflows within GitHub to support independent testing, rapid application packetization, and straightforward setup by partner organizations.
 
-2. Operational Documentation: Comprehensive Table of ContentsThis outline defines the technical layout and user instruction framework applied across our operational documentation suites, ensuring complete knowledge                                    transfer for all administrative and operational roles.
+3. Operational Documentation: Comprehensive Table of ContentsThis outline defines the technical layout and user instruction framework applied across our operational documentation suites, ensuring complete knowledge                                    transfer for all administrative and operational roles.
   
 SYSTEM ADMINISTRATOR GUIDE
 1. Environmental Prerequisites & Baseline Requirements
