@@ -14,8 +14,8 @@ Documentation Standard: Editable electronic delivery format optimized for indepe
  ┌────────────────────────────────────────────────────────┐
  │ Microsoft Power Apps Canvas Interface                  │
  │  - End-User Guided Data Entry & Validation Controls    │
- │  - Application Administrator Setup & Metadata Override  │
- │  - System Administrator Environmental Checklist Panel   │
+ │  - Application Administrator Setup & Metadata Override │
+ │  - System Administrator Environmental Checklist Panel  │
  └─────────────────────────┬──────────────────────────────┘
                            │
                            ▼ (Secure Automated Workflows)
@@ -42,7 +42,7 @@ Documentation Standard: Editable electronic delivery format optimized for indepe
  │ Microsoft Power BI Reporting Engine                    │
  │  - Operational Dashboards Embedded via Power Apps UI   │
  │  - Submission Volume, Cycle Times, & Backlog Tracking  │
- │  - Administrative Maintenance & Audit Trail Logging   │
+ │  - Administrative Maintenance & Audit Trail Logging    │
  └────────────────────────────────────────────────────────┘
 Infrastructure & Pipeline Portability Design
 To maximize ease of deployment and ensure the application remains highly portable, all source files, data structural templates, and workflow definitions are consolidated into a centralized deployment package. The package components include:
